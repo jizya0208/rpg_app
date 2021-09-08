@@ -1,4 +1,4 @@
-package rpg_app.thief;
+package thief;
 
 public class Thief {
 public String name;
