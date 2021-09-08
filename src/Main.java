@@ -1,5 +1,4 @@
-package rpg_app.main;
-import rpg_app.thief.Thief;
+import thief.Thief;
 
 public class Main {
 	public static void heal(int hp) {
@@ -15,7 +14,6 @@ public class Main {
 		heal(baseHp);
 		heal(t);
 		System.out.println(baseHp + ":" + t.hp);
-		System.out.println(baseHp + ":" + t.hp); //aaaaa
 	}
 }
 
