@@ -1,6 +1,5 @@
-import characters.*;
-import items.*;
-import monsters.*;
+import characters.Hero;
+import characters.Thief;
 
 public class Main {
 	public static void heal(int hp) {
@@ -16,6 +15,15 @@ public class Main {
 		heal(baseHp);
 		heal(t);
 		System.out.println(baseHp + ":" + t.getHp());
+
+		Hero h1 = new Hero("ハロー", 80, 10);
+		Hero h2 = new Hero("ハロー", 80, 10);
+		if (h1.equals(h2) == true) {
+			System.out.println("同じ内容です");
+		} else {
+			System.out.println("違う内容です");
+		}
+
 	}
 }
 
