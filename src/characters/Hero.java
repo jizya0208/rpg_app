@@ -3,6 +3,7 @@ import monsters.Monster;
 
 public class Hero extends Character {
 	int mp;
+	static int money;
 	public Hero(String name, int hp, int mp) {
 		super(name, hp);
 		this.mp = mp;
